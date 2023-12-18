@@ -1,0 +1,25 @@
+.fw_bold {
+    font-weight: 900;
+}
+
+.d_flex {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.ml {
+    margin-left: 50px;
+}
+
+.cardr {
+    margin: 20px;
+    background-color: #A9B4C3;
+    border-radius: 50px;
+    max-width: 1200px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,97 @@
+.container {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+
+  color: #202020;
+  background-color: #ededed;
+  height: 100%;
+}
+
+.form_design {
+  padding: 10px;
+}
+
+.login_box {
+  background-color: #ededed;
+  padding: 50px;
+
+  width: 100%;
+
+  margin-top: auto;
+}
+.login_tf {
+  background-color: #d9d9d9;
+  color: #cfdde8;
+  border-radius: 5px;
+
+  width: 70vh;
+  flex-shrink: 0;
+}
+
+.email_box,
+.password_box {
+  width: 137px;
+  height: 17px;
+
+  border-radius: 8px;
+}
+
+.tf_box {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  margin-bottom: 50px;
+}
+
+.helper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cb_design {
+  color: #cfdde8;
+}
+
+.button_design {
+  width: 35vh;
+  background-color: #032d61;
+  height: 55px;
+}
+
+.button_grp {
+  display: flex;
+  flex-direction: column;
+
+  width: fit-content;
+
+  gap: 40px;
+}
+
+.register_quote {
+  color: #032d61;
+  font-family: "Inter", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.logo_box {
+  width: 100%;
+
+  background-image: url("../../public/loginbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo_design {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

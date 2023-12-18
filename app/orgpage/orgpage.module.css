@@ -1,0 +1,123 @@
+.header_background {
+  background-image: url('../../public/orgpage.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+  background-color: rgba(255, 255, 255, 0.5);
+    
+  }
+  
+  .orgpara{
+    font-size: 15px;
+    word-wrap: break-word;
+  }
+  
+  .bottom_half {
+    background-color: #EDEDED; /* Replace with the color you want */
+    height: auto; /* Adjust the height as needed */
+  }
+  .text_container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: auto;
+    word-wrap: break-word;
+   
+  }
+  .image {
+    width: 70%; /* Ensure the image takes up the full width of its container */
+    max-height: 70%; /* Prevent image overflow */
+    margin-top: 150px;
+    margin-left: 100px;
+  }
+  
+  .header_content {
+    flex: 1; /* Use flex to control the positioning of content within header_background */
+    padding-left: 50px; /* Adjust the left padding as needed */
+  }
+  
+
+  .customHeading {
+    font-size: 35px;
+    color: #F9BA21;
+    font-weight: bold;
+    margin-bottom: 10px; /* Add some space between heading and paragraph */
+  }
+  .customBottom{
+    font-size: 30px;
+    color: #F9BA21;
+    font-weight: bold;
+    margin-top: 60px; /* Add some space between heading and paragraph */
+  }
+  
+  .bottomHeading {
+    font-size: 50px;
+    color: #F9BA21;
+    font-weight: bold;
+  }
+  .bottomRight{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .style.rightContent {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .table{
+    margin-left: 100px;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .tableImage {
+    width: 50%; /* Ensure images fill the entire cell */
+    max-height: 200px; /* Limit the maximum height of the images */
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+  
+  }
+  
+  
+  
+  .customParagraph {
+    font-size: 20px;
+    color: #E0E0E0; /* Adjust the color as needed */
+  }
+  
+  .style.inputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Push items to the right side */
+    margin-top: 60px;
+  
+  }
+  
+  .textbox {
+    width: 40%; /* Reduce the width to make the textbox smaller */
+    height: 40px;
+    padding: 10px;
+    margin-top: 60px;
+    border: 1px solid #000000; /* Border style */
+    border-radius: 30px; /* Rounded corners */
+    font-size: 16px; /* Larger text size */
+    background-color: #D9D9D9;
+    margin-right: auto;
+  
+  }
+  
+  .button {
+    width: 12%;
+    padding: 10px;
+    background-color: #032D61;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 10px; /* Add spacing between the input and button */
+  }

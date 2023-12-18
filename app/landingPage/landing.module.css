@@ -1,0 +1,17 @@
+.dflex {
+  display: flex;
+  flex-direction: row;
+}
+
+.threefourths {
+  flex-direction: column;
+  flex-grow: 7;
+
+  margin-top: 150px;
+}
+
+.onefourth {
+  flex-direction: column;
+  flex-grow: 3;
+  margin-top: 150px;
+}
